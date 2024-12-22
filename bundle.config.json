@@ -1,0 +1,27 @@
+{
+    "srcDir": "src",
+    "distDir": "dist",
+    "webPort": 3000,
+    "minify": false,
+    "build": {
+        "name": "MainModule",
+        "header": {
+            "enabled": true,
+            "file": "header.luau"
+        },
+        "rojo": {
+            "projectFile": "default.project.json"
+        },
+        "wax": {
+            "minify": false,
+            "envName": "WaxRuntime"
+        }
+    },
+    "web": {
+        "enabled": true,
+        "port": 3000,
+        "routes": {
+            "bundle": "/"
+        }
+    }
+}

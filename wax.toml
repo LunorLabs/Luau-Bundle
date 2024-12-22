@@ -1,0 +1,7 @@
+[package]
+name = "bundle"
+version = "1.0.0"
+authors = ["User"]
+realm = "shared"
+
+[dependencies]
