@@ -6,7 +6,9 @@ yarn-error.log
 package-lock.json
 yarn.lock
 sourcemap.json
-install.cmd
+target/
+# install.cmd
+Cargo.lock
 
 # Build outputs
 dist/
@@ -51,5 +53,6 @@ temp/
 *.map
 
 # Documendations
-UILIB.md
-SCRIPTING.md
+# UILIB.md
+# SCRIPTING.md
+main.zip
